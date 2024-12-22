@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risultato del Post Generato</title>
+</head>
+<body>
+    <h1>Contenuto Generato</h1>
+    <p>{{ content }}</p>
+    <form action="/publish" method="post">
+        <input type="hidden" name="content" value="{{ content }}">
+        <button type="submit">Pubblica su Facebook</button>
+    </form>
+    <form action="/" method="get">
+        <button type="submit">Torna alla Home</button>
+    </form>
+</body>
+</html>
+
