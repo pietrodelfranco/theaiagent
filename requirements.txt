@@ -10,3 +10,9 @@ pathspec==0.12.1
 platformdirs==4.3.6
 pylint==3.3.2
 tomlkit==0.13.2
+Flask==2.0.3
+openai==0.27.0
+requests==2.26.0
+python-dotenv==0.21.0
+
+

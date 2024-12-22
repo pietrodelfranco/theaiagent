@@ -1,0 +1,13 @@
+.env
+
+# Ignora il file delle variabili di ambiente
+.env
+
+# Ignora la cartella dell'ambiente virtuale
+venv/
+
+# Altri file temporanei che potresti voler ignorare
+__pycache__/
+*.pyc
+*.pyo
+*.log
